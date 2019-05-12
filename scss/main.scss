@@ -1,0 +1,20 @@
+$primary-bg: linear-gradient(#04519b, #044687 60%, #033769);
+
+header {
+  background-image: $primary-bg;
+  color: #fff;
+  min-height: 100px;
+  padding-top: 25px;
+
+  form {
+    float: right;
+  }
+  .logo {
+    float: left;
+  }
+}
+
+.card-header {
+  background-image: $primary-bg;
+  color: white;
+}
