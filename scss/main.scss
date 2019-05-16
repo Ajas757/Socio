@@ -142,6 +142,22 @@ header {
   }
 }
 
+.photos {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width: 23%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
 footer {
   background: lightgray;
   height: 90px;
