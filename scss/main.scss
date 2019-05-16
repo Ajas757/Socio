@@ -131,6 +131,17 @@ header {
   }
 }
 
+.profile {
+  ul {
+    margin-top: 30px;
+  }
+
+  li {
+    list-style: none;
+    line-height: 1.9em;
+  }
+}
+
 footer {
   background: lightgray;
   height: 90px;
