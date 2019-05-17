@@ -30,18 +30,15 @@
           <input
             type="text"
             class="form-control mb-2 mr-sm-2"
-            id="inlineFormInputName2"
             placeholder="Email"
           />
           <label class="sr-only">Password</label>
           <input
             type="password"
             class="form-control mb-2 mr-sm-2"
-            id="inlineFormInputName2"
             placeholder="Password"
           />
-          <button type="submit" class="btn btn-primary mb-2">Sign In</button
-          ><br />
+          <button type="submit" class="btn btn-dark mb-2">Sign In</button>
           <div class="form-check mb-2 mr-sm-2">
             <input
               class="form-check-input"
@@ -149,7 +146,7 @@
                         </div>
                       </a>
                     </div>
-                    <div class="likes text-center">10 Likes</div>
+                    <div class="likes text-center">12 Likes</div>
                   </div>
                   <!-- col-sm-2 -->
                   <div class="col-sm-8">
@@ -175,7 +172,6 @@
                         <input
                           type="text"
                           class="form-control mb-2 mr-sm-2"
-                          id="inlineFormInputName2"
                           placeholder="Enter Comment"
                         />
                         <button type="submit" class="btn btn-light mb-2">
@@ -221,13 +217,20 @@
               <div class="card-body">
                 <div class="row">
                   <div class="col-sm-4">
-                    <a class="post-avatar thumbnail" href="profile.html"
-                      ><img
-                        src="img/user.png"
-                        class="img-fluid img-thumbnail"
-                      />
-                      <div class="text-center">User2</div></a
-                    >
+                    <div class="card">
+                      <a class="post-avatar thumbnail" href="profile.html">
+                        <img
+                          src="img/user.png"
+                          class="card-img-top img-fluid"
+                          alt="..."
+                        />
+                        <div class="text-center">
+                          <p>
+                            DevUser 2
+                          </p>
+                        </div>
+                      </a>
+                    </div>
                     <div class="likes text-center">10 Likes</div>
                   </div>
                   <!-- col-sm-2 -->
@@ -253,7 +256,6 @@
                         <input
                           type="text"
                           class="form-control mb-2 mr-sm-2"
-                          id="inlineFormInputName2"
                           placeholder="Enter Comment"
                         />
                         <button type="submit" class="btn btn-light mb-2">
@@ -299,13 +301,20 @@
               <div class="card-body">
                 <div class="row">
                   <div class="col-sm-4">
-                    <a class="post-avatar thumbnail" href="profile.html"
-                      ><img
-                        src="img/user.png"
-                        class="img-fluid img-thumbnail"
-                      />
-                      <div class="text-center">User3</div></a
-                    >
+                    <div class="card">
+                      <a class="post-avatar thumbnail" href="profile.html">
+                        <img
+                          src="img/user.png"
+                          class="card-img-top img-fluid"
+                          alt="..."
+                        />
+                        <div class="text-center">
+                          <p>
+                            DevUser 3
+                          </p>
+                        </div>
+                      </a>
+                    </div>
                     <div class="likes text-center">8 Likes</div>
                   </div>
                   <!-- col-sm-2 -->
@@ -331,7 +340,6 @@
                         <input
                           type="text"
                           class="form-control mb-2 mr-sm-2"
-                          id="inlineFormInputName2"
                           placeholder="Enter Comment"
                         />
                         <button type="submit" class="btn btn-light mb-2">
@@ -363,7 +371,7 @@
           </div>
           <!-- Col-md-8 ends here -->
           <div class="col-md-4">
-            <div class="card bg-light mb-3 friends" style="max-width: 18rem;">
+            <div class="card bg-light mb-3 friends">
               <div class="card-header">My Friends</div>
               <div class="card-body">
                 <ul>
@@ -444,34 +452,38 @@
                   </li>
                 </ul>
                 <div class="clearfix"></div>
-                <a href="#" class="btn btn-primary">View all friends</a>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary mt-2">View all friends</a>
+                </div>
               </div>
             </div>
 
-            <div class="card groups" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Latest groups</h5>
-              </div>
-              <div class="card-body">
-                <div class="group-item">
-                  <img src="img/group.png" class="img-fluid" />
-                  <h4><a href="#">Sample Group One</a></h4>
-                  <p>This is a Socio sample group</p>
+            <div class="card groups">
+              <div class="card-header">Latest groups</div>
+              <div class="row">
+                <div class="card-body">
+                  <div class="group-item">
+                    <img src="img/group.png" class="img-fluid" />
+                    <h4><a href="#">Sample Group One</a></h4>
+                    <p>This is a Socio sample group</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="group-item">
+                    <img src="img/group.png" class="img-fluid" />
+                    <h4><a href="#">Sample Group Two</a></h4>
+                    <p>This is a Socio sample group</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="group-item">
+                    <img src="img/group.png" class="img-fluid" />
+                    <h4><a href="#">Sample Group Three</a></h4>
+                    <p>This is a Socio sample group</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-primary">View all Groups</a>
+                  </div>
                 </div>
-                <div class="clearfix"></div>
-                <div class="group-item">
-                  <img src="img/group.png" class="img-fluid" />
-                  <h4><a href="#">Sample Group One</a></h4>
-                  <p>This is a Socio sample group</p>
-                </div>
-                <div class="clearfix"></div>
-                <div class="group-item">
-                  <img src="img/group.png" class="img-fluid" />
-                  <h4><a href="#">Sample Group One</a></h4>
-                  <p>This is a Socio sample group</p>
-                </div>
-                <div class="clearfix"></div>
-                <a href="#" class="btn btn-primary">View all Groups</a>
               </div>
             </div>
           </div>
