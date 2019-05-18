@@ -1,12 +1,8 @@
-header {
+nav {
   background-image: linear-gradient(#cc2b5e 0%, #9c2047 100%);
   color: #fff;
   min-height: 100px;
   padding-top: 25px; }
-  header form {
-    float: right; }
-  header .logo {
-    float: left; }
 
 .card {
   margin: 20px 10px; }
@@ -111,7 +107,7 @@ header {
     list-style: none;
     float: left;
     margin: 5px;
-    width: 23%; }
+    width: 23.6%; }
   .photos img {
     width: 100%; }
 
@@ -123,8 +119,4 @@ footer {
   text-align: center;
   padding-top: 40px;
   margin-top: 30px;
-  border-top: 7px solid #490b25; }
-
-@media (min-width: 991px) {
-  .members p {
-    padding-top: 40px; } }
+  border-top: 7px solid #490b20; }

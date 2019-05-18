@@ -23,60 +23,22 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <img src="img/logo.png" alt="logo" />
-        <form class="form-inline">
-          <label class="sr-only">Email</label>
-          <input
-            type="text"
-            class="form-control mb-2 mr-sm-2"
-            id="inlineFormInputName2"
-            placeholder="Email"
-          />
-          <label class="sr-only">Password</label>
-          <input
-            type="password"
-            class="form-control mb-2 mr-sm-2"
-            id="inlineFormInputName2"
-            placeholder="Password"
-          />
-          <button type="submit" class="btn btn-primary mb-2">Sign In</button
-          ><br />
-          <div class="form-check mb-2 mr-sm-2">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              id="inlineFormCheck"
-            />
-            <label class="form-check-label" for="inlineFormCheck">
-              Remember me
-            </label>
-          </div>
-        </form>
-      </div>
-    </header>
     <!-- Navigation -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark"
-      style="background-color: rgb(73,11,32);"
-    >
-      <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="img/logo.png"/></a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home </a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="members.html">Members</a>
@@ -129,8 +91,10 @@
           </div>
           <!-- Col-md-8 ends here -->
           <div class="col-md-4">
-            <div class="card bg-light mb-3 friends" style="max-width: 18rem;">
-              <div class="card-header">My Friends</div>
+            <div class="card bg-light mb-3 friends">
+              <div class="card-header">
+                <h5 class="card-title">My Friends</h5>
+              </div>
               <div class="card-body">
                 <ul>
                   <li>
@@ -210,34 +174,40 @@
                   </li>
                 </ul>
                 <div class="clearfix"></div>
-                <a href="#" class="btn btn-primary">View all friends</a>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary">View all friends</a>
+                </div>
               </div>
             </div>
 
-            <div class="card groups" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Latest groups</h5>
+            <div class="card groups">
+              <div class="card-header">
+                <h5 class="card-title">Latest Groups</h5>
               </div>
-              <div class="card-body">
-                <div class="group-item">
-                  <img src="img/group.png" class="img-fluid" />
-                  <h4><a href="#">Sample Group One</a></h4>
-                  <p>This is a Socio sample group</p>
+              <div class="row">
+                <div class="card-body">
+                  <div class="group-item">
+                    <img src="img/group.png" class="img-fluid" />
+                    <h4><a href="#">Sample Group One</a></h4>
+                    <p>This is a Socio sample group</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="group-item">
+                    <img src="img/group.png" class="img-fluid" />
+                    <h4><a href="#">Sample Group Two</a></h4>
+                    <p>This is a Socio sample group</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="group-item">
+                    <img src="img/group.png" class="img-fluid" />
+                    <h4><a href="#">Sample Group Three</a></h4>
+                    <p>This is a Socio sample group</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-primary">View all Groups</a>
+                  </div>
                 </div>
-                <div class="clearfix"></div>
-                <div class="group-item">
-                  <img src="img/group.png" class="img-fluid" />
-                  <h4><a href="#">Sample Group One</a></h4>
-                  <p>This is a Socio sample group</p>
-                </div>
-                <div class="clearfix"></div>
-                <div class="group-item">
-                  <img src="img/group.png" class="img-fluid" />
-                  <h4><a href="#">Sample Group One</a></h4>
-                  <p>This is a Socio sample group</p>
-                </div>
-                <div class="clearfix"></div>
-                <a href="#" class="btn btn-primary">View all Groups</a>
               </div>
             </div>
           </div>

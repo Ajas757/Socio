@@ -1,19 +1,11 @@
 $primary-bg: linear-gradient(#cc2b5e 0%, #9c2047 100%);
 $secondary-color: rgb(73, 11, 32);
 
-header {
+nav {
   background-image: $primary-bg;
   color: #fff;
   min-height: 100px;
   padding-top: 25px;
-
-  form {
-    float: right;
-  }
-
-  .logo {
-    float: left;
-  }
 }
 
 .card {
@@ -152,7 +144,7 @@ header {
     list-style: none;
     float: left;
     margin: 5px;
-    width: 23%;
+    width: 23.6%;
   }
 
   img {
@@ -169,12 +161,4 @@ footer {
   padding-top: 40px;
   margin-top: 30px;
   border-top: 7px solid $secondary-color;
-}
-
-@media (min-width: 991px) {
-  .members {
-    p {
-      padding-top: 40px;
-    }
-  }
 }
