@@ -1,5 +1,5 @@
 nav {
-  background-image: linear-gradient(#cc2b5e 0%, #9c2047 100%);
+  background-image: linear-gradient(#090979 0%, #073294 100%);
   color: #fff;
   min-height: 100px;
   padding-top: 25px; }
@@ -8,7 +8,7 @@ nav {
   margin: 20px 10px; }
 
 .card-header {
-  background-image: linear-gradient(#cc2b5e 0%, #9c2047 100%);
+  background-image: linear-gradient(#090979 0%, #073294 100%);
   color: white; }
 
 .bubble {
@@ -112,11 +112,11 @@ nav {
     width: 100%; }
 
 footer {
-  background: linear-gradient(#cc2b5e 0%, #9c2047 100%);
+  background: linear-gradient(#090979 0%, #073294 100%);
   height: 90px;
   color: #fff;
   font-weight: bold;
   text-align: center;
   padding-top: 40px;
   margin-top: 30px;
-  border-top: 7px solid #490b20; }
+  border-top: 7px solid #090979; }
