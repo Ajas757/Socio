@@ -1,8 +1,7 @@
 nav {
   background-image: linear-gradient(#090979 0%, #073294 100%);
   color: #fff;
-  min-height: 100px;
-  padding-top: 25px; }
+  min-height: 100px; }
 
 .card {
   margin: 20px 10px; }

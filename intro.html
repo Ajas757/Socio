@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Profile: Socio</title>
+    <title>Welcome to Socio</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom Styles -->
@@ -23,114 +23,34 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <img src="img/logo.png" alt="logo" />
-      </div>
-    </header>
-    <div class="container">
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"
+            ><img src="img/logo.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </nav>
+    <form>
       <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">
-                Connect with friends and the World around you on Socio
-              </h3>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <img src="" class="far fa-newspaper" />
-                  <strong>See photos and updates</strong> from friends in News
-                  Feed.
-                </li>
-                <li class="list-group-item">
-                  <img src="" class="fas fa-swatchbook" />
-                  <strong>Share what's new</strong> in your life on your
-                  Timeline.
-                </li>
-                <li class="list-group-item">
-                  <img src="" class="fab fa-searchengin" />
-                  <strong>Find more</strong> of what you're looking for with
-                  Socio Search.
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="col-md-2">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter email or phone"
+          />
         </div>
-        <!-- Sign up form begin -->
-        <div class="col-md-6">
-          <div>
-            <h4>
-              Not a Socio member?<br />
-              Sign Up here
-            </h4>
-          </div>
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="First Name"
-                />
-              </div>
-              <div class="form-group col-md-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Last Name"
-                />
-              </div>
-            </div>
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Mobile Number or Email"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="password"
-                class="form-control"
-                placeholder="New password"
-              />
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="inlineCheckbox1"
-                value="option1"
-              />
-              <label class="form-check-label" for="inlineCheckbox1">Male</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="inlineCheckbox2"
-                value="option2"
-              />
-              <label class="form-check-label" for="inlineCheckbox2"
-                >Female</label
-              >
-            </div>
-            <button type="submit" class="btn btn-warning">Sign in</button>
-            <p style="color: rgb(139, 134, 134);">
-              By clicking Sign Up, you agree to our <a href="#">Terms</a>,
-              <a href="#">Data Policy</a> and <a href="#">Cookies Policy</a>.
-              You may receive SMS Notifications from us and can opt out any
-              time.
-            </p>
-          </form>
+        <div class="col-md-2">
+          <input type="password" class="form-control" placeholder="password" />
         </div>
-        <!-- Sign up form ends -->
+        <button type="button" class="btn btn-outline-info">Sign in</button>
       </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.slim.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </form>
+    <section class="container-fluid">
+      <section class="row">
+        <section class="col-12 col-sm-6 col-md-3"></section>
+      </section>
+    </section>
   </body>
 </html>
