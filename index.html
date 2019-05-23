@@ -23,29 +23,61 @@
 
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md sticky-top">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand"><img src="img/logo.png"></a>
-        <a href="#" class="navbar-brand d-none d-sm-block"><img src="img/logo2.png"></a>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav nav-pills w-50 nav-justified ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-success active bg-transparent fas fa-home" href="index.html"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fas fa-user-friends" href="members.html"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white fas fa-users" href="groups.html"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white far fa-images" href="photos.html"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white far fa-user-circle" href="profile.html"></a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a href="#" class="navbar-brand"><img src="img/logo.png"/></a>
+      <a href="#" class="navbar-brand d-none d-md-block"
+        ><img src="img/brand-lg.png"
+      /></a>
+      <a href="#" class="navbar-brand d-none d-sm-block d-md-none mr-auto"
+        ><img src="img/brand-sm.png" style="height: 55px;"
+      /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse nav-justified" id="navbarResponsive">
+        <ul class="navbar-nav nav-pills w-50 flex-row ml-auto nav-justified">
+          <li class="nav-item">
+            <h3>
+              <a
+                class="nav-link text-success active bg-transparent fas fa-home"
+                href="index.html"
+              ></a>
+            </h3>
+          </li>
+          <li class="nav-item">
+            <h3>
+              <a
+                class="nav-link text-white fas fa-user-friends"
+                href="members.html"
+              ></a>
+            </h3>
+          </li>
+          <li class="nav-item">
+            <h3>
+              <a
+                class="nav-link text-white fas fa-users"
+                href="groups.html"
+              ></a>
+            </h3>
+          </li>
+          <li class="nav-item">
+            <h3>
+              <a
+                class="nav-link text-white far fa-images"
+                href="photos.html"
+              ></a>
+            </h3>
+          </li>
+          <li class="nav-item">
+            <h3>
+              <a
+                class="nav-link text-white far fa-user-circle"
+                href="profile.html"
+              ></a>
+            </h3>
+          </li>
+        </ul>
       </div>
     </nav>
 
