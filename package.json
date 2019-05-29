@@ -40,5 +40,5 @@
     "gulp": "4.0.2",
     "merge-stream": "^1.0.1"
   },
-  "main": "gulpfile.js"
+  "main": "index.html"
 }
